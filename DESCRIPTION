@@ -1,8 +1,12 @@
-Package: abc
+Package: abc.fast
 Title: Approximate Bayesian Computation
 Version: 0.0.1
 Authors@R: person("Jacob", "Carey", email = "jacobcvt12@gmail.com", role = c("aut", "cre"))
 Description: An R package for Approximate Bayesian Computation
-Depends: R (>= 3.2.1)
+Depends: 
+    R (>= 3.2.1),
+    Rcpp
 License: GPL-3
+VignetteBuilder: knitr
+LinkingTo: Rcpp
 LazyData: true
